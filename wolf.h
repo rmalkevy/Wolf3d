@@ -3,25 +3,26 @@
 //
 
 #ifndef WOLF_WOLF_H
-#define WOLF_WOLF_H
+# define WOLF_WOLF_H
 
-#include <math.h>
-#include <time.h>
-#include <stdlib.h>
-#include <printf.h>
-#include "minilibx/mlx.h"
+# include <math.h>
+# include <time.h>
+# include <stdlib.h>
+# include <printf.h>
+# include "minilibx/mlx.h"
+# include "libft/libft.h"
 
-#define UPKEY 126
-#define DOWNKEY 125
-#define LEFTKEY 123
-#define RIGHTKEY 124
+# define UPKEY 126
+# define DOWNKEY 125
+# define LEFTKEY 123
+# define RIGHTKEY 124
 
-#define mapWidth 24
-#define mapHeight 24
-#define WidthScreen 512
-#define HeightScreen 384
+# define MAP_WIDTH 24
+# define MAP_HEIGHT 24
+# define WIDTH_SCREEN 512
+# define HEIGHT_SCREEN 384
 
-int worldMap[mapWidth][mapHeight] =
+int worldMap[MAP_WIDTH][MAP_HEIGHT] =
 		{
 				{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
 				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
@@ -65,11 +66,20 @@ typedef struct		s_win
 	double			planeY; //the 2d raycaster version of camera plane
 	double			moveSpeed;
 	double			rotSpeed;
+
+	unsigned int*	map;
+	unsigned int	map_width;
+	unsigned int	map_height;
 }					t_win;
+
+
+int					error_handler(int ac);
+void				determine_map_size(char **file_name, t_win *win);
+void				map_handler(char **file_name, t_win *win);
 
 t_win*				win_initialization();
 void				put_color_to_pixel(t_win *win, int x, int y);
-void				ver_line(int x, int drawStart, int drawEnd, t_win *win);
+void				ver_line(int x, int start, int end, t_win *win);
 void				write_to_image(t_win *win);
 int					my_key_funct(int keyInput, t_win *win);
 void				create_image(t_win *win);

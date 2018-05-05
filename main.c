@@ -9,10 +9,10 @@ void    draw(t_win *win)
 
 	mlx_clear_window(win->mlx, win->win);
 	create_image(win);
-	for(int x = 0; x < WidthScreen; x++)
+	for(int x = 0; x < WIDTH_SCREEN; x++)
 	{
 		//calculate ray position and direction
-		double cameraX = 2 * x / (double)WidthScreen - 1; //x-coordinate in camera space
+		double cameraX = 2 * x / (double)WIDTH_SCREEN - 1; //x-coordinate in camera space
 		double rayPosX = win->posX;
 		double rayPosY = win->posY;
 		double rayDirX = win->dirX + win->planeX * cameraX;
@@ -84,15 +84,15 @@ void    draw(t_win *win)
 			perpWallDist = (mapY - rayPosY + (1 - stepY) / 2) / rayDirY;
 
 		//Calculate height of line to draw on screen
-		int lineHeight = (int)(HeightScreen / perpWallDist);
+		int lineHeight = (int)(HEIGHT_SCREEN / perpWallDist);
 
 		//calculate lowest and highest pixel to fill in current stripe
-		int drawStart = -lineHeight / 2 + HeightScreen / 2;
+		int drawStart = -lineHeight / 2 + HEIGHT_SCREEN / 2;
 		if (drawStart < 0)
 			drawStart = 0;
-		int drawEnd = lineHeight / 2 + HeightScreen / 2;
-		if (drawEnd >= HeightScreen)
-			drawEnd = HeightScreen - 1;
+		int drawEnd = lineHeight / 2 + HEIGHT_SCREEN / 2;
+		if (drawEnd >= HEIGHT_SCREEN)
+			drawEnd = HEIGHT_SCREEN - 1;
 
 		//choose wall color
 		//unsigned int color = 0xFFFFFF;
@@ -130,9 +130,10 @@ void    draw(t_win *win)
 
 int main(int argc, char *argv[])
 {
-	t_win *win = win_initialization();
-	if (argc == 1)
+	if (error_handler(argc))
 	{
+		t_win *win = win_initialization();
+		map_handler(argv, win);
 		write_to_image(win);
 	}
 }

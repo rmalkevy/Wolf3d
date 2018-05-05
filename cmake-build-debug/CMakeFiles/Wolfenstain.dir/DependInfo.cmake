@@ -4,9 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/Users/Henprokuror/CLionProjects/Wolfenstain/determine_map_size.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/determine_map_size.c.o"
   "/Users/Henprokuror/CLionProjects/Wolfenstain/draw.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/draw.c.o"
+  "/Users/Henprokuror/CLionProjects/Wolfenstain/free_allocated_memory.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o"
   "/Users/Henprokuror/CLionProjects/Wolfenstain/key.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/key.c.o"
   "/Users/Henprokuror/CLionProjects/Wolfenstain/main.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/main.c.o"
+  "/Users/Henprokuror/CLionProjects/Wolfenstain/map_reader.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/map_reader.c.o"
   "/Users/Henprokuror/CLionProjects/Wolfenstain/window.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/window.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

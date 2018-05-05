@@ -16,7 +16,7 @@ t_win*	win_initialization()
 {
 	t_win *win = (t_win*)malloc(sizeof(t_win));
 	win->mlx = mlx_init();
-	win->win = mlx_new_window(win->mlx, WidthScreen, HeightScreen, "Wolf3D");
+	win->win = mlx_new_window(win->mlx, WIDTH_SCREEN, HEIGHT_SCREEN, "Wolf3D");
 
 	win->posX = 22, win->posY = 12;  //x and y start position
 	win->dirX = -1, win->dirY = 0; //initial direction vector
@@ -28,7 +28,7 @@ void	create_image(t_win *win)
 {
 	int a[3];
 
-	win->image = mlx_new_image(win->mlx, WidthScreen, HeightScreen);
+	win->image = mlx_new_image(win->mlx, WIDTH_SCREEN, HEIGHT_SCREEN);
 	win->line = mlx_get_data_addr(win->image, &a[0], &a[1], &a[2]);
 }
 

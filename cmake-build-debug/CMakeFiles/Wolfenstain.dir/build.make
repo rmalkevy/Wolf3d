@@ -153,12 +153,87 @@ CMakeFiles/Wolfenstain.dir/window.c.o.provides: CMakeFiles/Wolfenstain.dir/windo
 CMakeFiles/Wolfenstain.dir/window.c.o.provides.build: CMakeFiles/Wolfenstain.dir/window.c.o
 
 
+CMakeFiles/Wolfenstain.dir/map_reader.c.o: CMakeFiles/Wolfenstain.dir/flags.make
+CMakeFiles/Wolfenstain.dir/map_reader.c.o: ../map_reader.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Wolfenstain.dir/map_reader.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolfenstain.dir/map_reader.c.o   -c /Users/Henprokuror/CLionProjects/Wolfenstain/map_reader.c
+
+CMakeFiles/Wolfenstain.dir/map_reader.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolfenstain.dir/map_reader.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Henprokuror/CLionProjects/Wolfenstain/map_reader.c > CMakeFiles/Wolfenstain.dir/map_reader.c.i
+
+CMakeFiles/Wolfenstain.dir/map_reader.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolfenstain.dir/map_reader.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Henprokuror/CLionProjects/Wolfenstain/map_reader.c -o CMakeFiles/Wolfenstain.dir/map_reader.c.s
+
+CMakeFiles/Wolfenstain.dir/map_reader.c.o.requires:
+
+.PHONY : CMakeFiles/Wolfenstain.dir/map_reader.c.o.requires
+
+CMakeFiles/Wolfenstain.dir/map_reader.c.o.provides: CMakeFiles/Wolfenstain.dir/map_reader.c.o.requires
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/map_reader.c.o.provides.build
+.PHONY : CMakeFiles/Wolfenstain.dir/map_reader.c.o.provides
+
+CMakeFiles/Wolfenstain.dir/map_reader.c.o.provides.build: CMakeFiles/Wolfenstain.dir/map_reader.c.o
+
+
+CMakeFiles/Wolfenstain.dir/determine_map_size.c.o: CMakeFiles/Wolfenstain.dir/flags.make
+CMakeFiles/Wolfenstain.dir/determine_map_size.c.o: ../determine_map_size.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Wolfenstain.dir/determine_map_size.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolfenstain.dir/determine_map_size.c.o   -c /Users/Henprokuror/CLionProjects/Wolfenstain/determine_map_size.c
+
+CMakeFiles/Wolfenstain.dir/determine_map_size.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolfenstain.dir/determine_map_size.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Henprokuror/CLionProjects/Wolfenstain/determine_map_size.c > CMakeFiles/Wolfenstain.dir/determine_map_size.c.i
+
+CMakeFiles/Wolfenstain.dir/determine_map_size.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolfenstain.dir/determine_map_size.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Henprokuror/CLionProjects/Wolfenstain/determine_map_size.c -o CMakeFiles/Wolfenstain.dir/determine_map_size.c.s
+
+CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.requires:
+
+.PHONY : CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.requires
+
+CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.provides: CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.requires
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.provides.build
+.PHONY : CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.provides
+
+CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.provides.build: CMakeFiles/Wolfenstain.dir/determine_map_size.c.o
+
+
+CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o: CMakeFiles/Wolfenstain.dir/flags.make
+CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o: ../free_allocated_memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o   -c /Users/Henprokuror/CLionProjects/Wolfenstain/free_allocated_memory.c
+
+CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Henprokuror/CLionProjects/Wolfenstain/free_allocated_memory.c > CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.i
+
+CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Henprokuror/CLionProjects/Wolfenstain/free_allocated_memory.c -o CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.s
+
+CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.requires:
+
+.PHONY : CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.requires
+
+CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.provides: CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.requires
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.provides.build
+.PHONY : CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.provides
+
+CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.provides.build: CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o
+
+
 # Object files for target Wolfenstain
 Wolfenstain_OBJECTS = \
 "CMakeFiles/Wolfenstain.dir/main.c.o" \
 "CMakeFiles/Wolfenstain.dir/draw.c.o" \
 "CMakeFiles/Wolfenstain.dir/key.c.o" \
-"CMakeFiles/Wolfenstain.dir/window.c.o"
+"CMakeFiles/Wolfenstain.dir/window.c.o" \
+"CMakeFiles/Wolfenstain.dir/map_reader.c.o" \
+"CMakeFiles/Wolfenstain.dir/determine_map_size.c.o" \
+"CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o"
 
 # External object files for target Wolfenstain
 Wolfenstain_EXTERNAL_OBJECTS =
@@ -167,9 +242,12 @@ Wolfenstain: CMakeFiles/Wolfenstain.dir/main.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/draw.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/key.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/window.c.o
+Wolfenstain: CMakeFiles/Wolfenstain.dir/map_reader.c.o
+Wolfenstain: CMakeFiles/Wolfenstain.dir/determine_map_size.c.o
+Wolfenstain: CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/build.make
 Wolfenstain: CMakeFiles/Wolfenstain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable Wolfenstain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Wolfenstain"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Wolfenstain.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +259,9 @@ CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/main.c.o.require
 CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/draw.c.o.requires
 CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/key.c.o.requires
 CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/window.c.o.requires
+CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/map_reader.c.o.requires
+CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.requires
+CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.requires
 
 .PHONY : CMakeFiles/Wolfenstain.dir/requires
 

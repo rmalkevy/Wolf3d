@@ -86,13 +86,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/determine_map_size.c">
+			<Option target="Wolfenstain"/>
+		</Unit>
 		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/draw.c">
+			<Option target="Wolfenstain"/>
+		</Unit>
+		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/free_allocated_memory.c">
 			<Option target="Wolfenstain"/>
 		</Unit>
 		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/key.c">
 			<Option target="Wolfenstain"/>
 		</Unit>
 		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/main.c">
+			<Option target="Wolfenstain"/>
+		</Unit>
+		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/map_reader.c">
 			<Option target="Wolfenstain"/>
 		</Unit>
 		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/window.c">

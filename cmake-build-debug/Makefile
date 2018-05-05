@@ -123,6 +123,33 @@ Wolfenstain/fast:
 	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/build
 .PHONY : Wolfenstain/fast
 
+determine_map_size.o: determine_map_size.c.o
+
+.PHONY : determine_map_size.o
+
+# target to build an object file
+determine_map_size.c.o:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/determine_map_size.c.o
+.PHONY : determine_map_size.c.o
+
+determine_map_size.i: determine_map_size.c.i
+
+.PHONY : determine_map_size.i
+
+# target to preprocess a source file
+determine_map_size.c.i:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/determine_map_size.c.i
+.PHONY : determine_map_size.c.i
+
+determine_map_size.s: determine_map_size.c.s
+
+.PHONY : determine_map_size.s
+
+# target to generate assembly for a file
+determine_map_size.c.s:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/determine_map_size.c.s
+.PHONY : determine_map_size.c.s
+
 draw.o: draw.c.o
 
 .PHONY : draw.o
@@ -149,6 +176,33 @@ draw.s: draw.c.s
 draw.c.s:
 	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/draw.c.s
 .PHONY : draw.c.s
+
+free_allocated_memory.o: free_allocated_memory.c.o
+
+.PHONY : free_allocated_memory.o
+
+# target to build an object file
+free_allocated_memory.c.o:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o
+.PHONY : free_allocated_memory.c.o
+
+free_allocated_memory.i: free_allocated_memory.c.i
+
+.PHONY : free_allocated_memory.i
+
+# target to preprocess a source file
+free_allocated_memory.c.i:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.i
+.PHONY : free_allocated_memory.c.i
+
+free_allocated_memory.s: free_allocated_memory.c.s
+
+.PHONY : free_allocated_memory.s
+
+# target to generate assembly for a file
+free_allocated_memory.c.s:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.s
+.PHONY : free_allocated_memory.c.s
 
 key.o: key.c.o
 
@@ -204,6 +258,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/main.c.s
 .PHONY : main.c.s
 
+map_reader.o: map_reader.c.o
+
+.PHONY : map_reader.o
+
+# target to build an object file
+map_reader.c.o:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/map_reader.c.o
+.PHONY : map_reader.c.o
+
+map_reader.i: map_reader.c.i
+
+.PHONY : map_reader.i
+
+# target to preprocess a source file
+map_reader.c.i:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/map_reader.c.i
+.PHONY : map_reader.c.i
+
+map_reader.s: map_reader.c.s
+
+.PHONY : map_reader.s
+
+# target to generate assembly for a file
+map_reader.c.s:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/map_reader.c.s
+.PHONY : map_reader.c.s
+
 window.o: window.c.o
 
 .PHONY : window.o
@@ -240,15 +321,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Wolfenstain"
+	@echo "... determine_map_size.o"
+	@echo "... determine_map_size.i"
+	@echo "... determine_map_size.s"
 	@echo "... draw.o"
 	@echo "... draw.i"
 	@echo "... draw.s"
+	@echo "... free_allocated_memory.o"
+	@echo "... free_allocated_memory.i"
+	@echo "... free_allocated_memory.s"
 	@echo "... key.o"
 	@echo "... key.i"
 	@echo "... key.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... map_reader.o"
+	@echo "... map_reader.i"
+	@echo "... map_reader.s"
 	@echo "... window.o"
 	@echo "... window.i"
 	@echo "... window.s"
