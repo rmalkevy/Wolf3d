@@ -104,6 +104,9 @@
 		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/map_reader.c">
 			<Option target="Wolfenstain"/>
 		</Unit>
+		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/mod_strsplit.cpp">
+			<Option target="Wolfenstain"/>
+		</Unit>
 		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/window.c">
 			<Option target="Wolfenstain"/>
 		</Unit>

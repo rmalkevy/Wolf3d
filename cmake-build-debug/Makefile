@@ -285,6 +285,33 @@ map_reader.c.s:
 	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/map_reader.c.s
 .PHONY : map_reader.c.s
 
+mod_strsplit.o: mod_strsplit.cpp.o
+
+.PHONY : mod_strsplit.o
+
+# target to build an object file
+mod_strsplit.cpp.o:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o
+.PHONY : mod_strsplit.cpp.o
+
+mod_strsplit.i: mod_strsplit.cpp.i
+
+.PHONY : mod_strsplit.i
+
+# target to preprocess a source file
+mod_strsplit.cpp.i:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.i
+.PHONY : mod_strsplit.cpp.i
+
+mod_strsplit.s: mod_strsplit.cpp.s
+
+.PHONY : mod_strsplit.s
+
+# target to generate assembly for a file
+mod_strsplit.cpp.s:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.s
+.PHONY : mod_strsplit.cpp.s
+
 window.o: window.c.o
 
 .PHONY : window.o
@@ -339,6 +366,9 @@ help:
 	@echo "... map_reader.o"
 	@echo "... map_reader.i"
 	@echo "... map_reader.s"
+	@echo "... mod_strsplit.o"
+	@echo "... mod_strsplit.i"
+	@echo "... mod_strsplit.s"
 	@echo "... window.o"
 	@echo "... window.i"
 	@echo "... window.s"

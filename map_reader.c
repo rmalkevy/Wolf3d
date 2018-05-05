@@ -20,9 +20,26 @@ int		error_handler(int ac)
 		return (0);
 }
 
-int*	handle_line_of_map(char** map)
+void handle_line_of_map(char* line, t_win *win, size_t num_line)
 {
+	char** splited_line;
+	size_t i;
 
+	i = 0;
+	splited_line = mod_strsplit(line, ',', &i);
+	if (i != win->map_width)
+	{
+		ft_putstr("Not correct size of the map line N");
+		ft_putnbr((int)i);
+		exit(0);
+	}
+	i = 0;
+	win->map = (size_t**)malloc(sizeof(size_t*) * win->map_height);
+	while (i < win->map_width)
+	{
+		win->map[num_line][i] = (size_t)ft_atoi(splited_line[i]);
+		i++;
+	}
 }
 
 void	create_map(char** map, t_win *win)
@@ -32,7 +49,8 @@ void	create_map(char** map, t_win *win)
 	i = 0;
 	while(map[i])
 	{
-
+		handle_line_of_map(map[i], win, i);
+		i++;
 	}
 }
 

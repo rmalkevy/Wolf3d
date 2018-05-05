@@ -56,7 +56,7 @@ typedef struct		s_win
 	void		    *win;
 	void		    *image;
 	char		    *line;
-	unsigned int    color;
+	size_t    color;
 
 	double			posX;
 	double			posY;  //x and y start position
@@ -67,11 +67,13 @@ typedef struct		s_win
 	double			moveSpeed;
 	double			rotSpeed;
 
-	unsigned int*	map;
-	unsigned int	map_width;
-	unsigned int	map_height;
+	size_t	**map;
+	size_t	map_width;
+	size_t	map_height;
 }					t_win;
 
+
+char		**mod_strsplit(char const *s, char c, size_t *size);
 
 int					error_handler(int ac);
 void				determine_map_size(char **file_name, t_win *win);
