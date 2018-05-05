@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Henprokuror/CLionProjects/Wolfenstain/draw.c
+wolf.h
+/Users/Henprokuror/CLionProjects/Wolfenstain/wolf.h
+
+/Users/Henprokuror/CLionProjects/Wolfenstain/key.c
+wolf.h
+/Users/Henprokuror/CLionProjects/Wolfenstain/wolf.h
+
+/Users/Henprokuror/CLionProjects/Wolfenstain/main.c
+wolf.h
+/Users/Henprokuror/CLionProjects/Wolfenstain/wolf.h
+
+/Users/Henprokuror/CLionProjects/Wolfenstain/minilibx/mlx.h
+
+/Users/Henprokuror/CLionProjects/Wolfenstain/window.c
+wolf.h
+/Users/Henprokuror/CLionProjects/Wolfenstain/wolf.h
+
+/Users/Henprokuror/CLionProjects/Wolfenstain/wolf.h
+math.h
+-
+time.h
+-
+stdlib.h
+-
+printf.h
+-
+minilibx/mlx.h
+/Users/Henprokuror/CLionProjects/Wolfenstain/minilibx/mlx.h
+
