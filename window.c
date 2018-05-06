@@ -18,9 +18,12 @@ t_win*	win_initialization()
 	win->mlx = mlx_init();
 	win->win = mlx_new_window(win->mlx, WIDTH_SCREEN, HEIGHT_SCREEN, "Wolf3D");
 
-	win->posX = 22, win->posY = 12;  //x and y start position
-	win->dirX = -1, win->dirY = 0; //initial direction vector
-	win->planeX = 0, win->planeY = 0.66; //the 2d raycaster version of camera plane
+	win->cam.posX = 22;	// TODO: change start position to map size;
+	win->cam.posY = 12;  //x and y start position
+	win->cam.dirX = -1;
+	win->cam.dirY = 0; //initial direction vector
+	win->cam.planeX = 0;
+	win->cam.planeY = 0.66; //the 2d raycaster version of camera plane
 	return win;
 }
 

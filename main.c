@@ -12,34 +12,34 @@
 
 #include "wolf.h"
 
+
 void    draw(t_win *win)
 {
-	clock_t start = 0;
-	clock_t end;
-	double time = 0; //time of current frame
-	double oldTime = 0; //time of previous frame
+//	clock_t start = 0;
+//	clock_t end;
 
 	mlx_clear_window(win->mlx, win->win);
 	create_image(win);
+	t_cam cam;
 	for(int x = 0; x < WIDTH_SCREEN; x++)
 	{
 		//calculate ray position and direction
-		double cameraX = 2 * x / (double)WIDTH_SCREEN - 1; //x-coordinate in camera space
-		double rayPosX = win->posX;
-		double rayPosY = win->posY;
-		double rayDirX = win->dirX + win->planeX * cameraX;
-		double rayDirY = win->dirY + win->planeY * cameraX;
+		win->cam.cameraX = 2 * x / (double)WIDTH_SCREEN - 1; //x-coordinate in camera space
+		cam.rayPosX = win->cam.posX;
+		cam.rayPosY = win->cam.posY;
+		cam.rayDirX = win->cam.dirX + win->cam.planeX * win->cam.cameraX;
+		cam.rayDirY = win->cam.dirY + win->cam.planeY * win->cam.cameraX;
 		//which box of the map we're in
-		int mapX = (int)rayPosX;
-		int mapY = (int)rayPosY;
+		int mapX = (int)cam.rayPosX;
+		int mapY = (int)cam.rayPosY;
 
 		//length of ray from current position to next x or y-side
 		double sideDistX;
 		double sideDistY;
 
 		//length of ray from one x or y-side to next x or y-side
-		double deltaDistX = sqrt(1 + (rayDirY * rayDirY) / (rayDirX * rayDirX));
-		double deltaDistY = sqrt(1 + (rayDirX * rayDirX) / (rayDirY * rayDirY));
+		double deltaDistX = sqrt(1 + (cam.rayDirY * cam.rayDirY) / (cam.rayDirX * cam.rayDirX));
+		double deltaDistY = sqrt(1 + (cam.rayDirX * cam.rayDirX) / (cam.rayDirY * cam.rayDirY));
 		double perpWallDist;
 
 		//what direction to step in x or y-direction (either +1 or -1)
@@ -49,25 +49,25 @@ void    draw(t_win *win)
 		int hit = 0; //was there a wall hit?
 		int side = 0; //was a NS or a EW wall hit?
 		//calculate step and initial sideDist
-		if (rayDirX < 0)
+		if (cam.rayDirX < 0)
 		{
 			stepX = -1;
-			sideDistX = (rayPosX - mapX) * deltaDistX;
+			sideDistX = (cam.rayPosX - mapX) * deltaDistX;
 		}
 		else
 		{
 			stepX = 1;
-			sideDistX = (mapX + 1.0 - rayPosX) * deltaDistX;
+			sideDistX = (mapX + 1.0 - cam.rayPosX) * deltaDistX;
 		}
-		if (rayDirY < 0)
+		if (cam.rayDirY < 0)
 		{
 			stepY = -1;
-			sideDistY = (rayPosY - mapY) * deltaDistY;
+			sideDistY = (cam.rayPosY - mapY) * deltaDistY;
 		}
 		else
 		{
 			stepY = 1;
-			sideDistY = (mapY + 1.0 - rayPosY) * deltaDistY;
+			sideDistY = (mapY + 1.0 - cam.rayPosY) * deltaDistY;
 		}
 		//perform DDA
 		while (hit == 0)
@@ -91,9 +91,9 @@ void    draw(t_win *win)
 		}
 		//Calculate distance projected on camera direction (oblique distance will give fisheye effect!)
 		if (side == 0)
-			perpWallDist = (mapX - rayPosX + (1 - stepX) / 2) / rayDirX;
+			perpWallDist = (mapX - cam.rayPosX + (1 - stepX) / 2) / cam.rayDirX;
 		else
-			perpWallDist = (mapY - rayPosY + (1 - stepY) / 2) / rayDirY;
+			perpWallDist = (mapY - cam.rayPosY + (1 - stepY) / 2) / cam.rayDirY;
 
 		//Calculate height of line to draw on screen
 		int lineHeight = (int)(HEIGHT_SCREEN / perpWallDist);
@@ -128,10 +128,9 @@ void    draw(t_win *win)
 	//timing for input and FPS counter
 //		oldTime = time;
 //		time = get;
-	end = start;
-	start = clock();
-	double frameTime = (double)(start - end) / CLOCKS_PER_SEC; //frameTime is the time this frame has taken, in seconds
-	printf("FrameTime %f\n", frameTime);
+//	end = start;
+//	start = clock();
+//	double frameTime = (double)(start - end) / CLOCKS_PER_SEC; //frameTime is the time this frame has taken, in seconds
 
 //	//speed modifiers
 	win->moveSpeed = 0.2; //the constant value is in squares/second

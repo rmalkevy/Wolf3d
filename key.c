@@ -18,39 +18,39 @@ int		my_key_funct(int keyInput, t_win *win) {
 	printf("KEY %d\n", keyInput);
 	if (keyInput == UPKEY)
 	{
-		if (win->map[(int)(win->posX + win->dirX * win->moveSpeed)][(int)win->posY] == 0)
-			win->posX += win->dirX * win->moveSpeed;
-		if (win->map[(int)win->posX][(int)(win->posY + win->dirY * win->moveSpeed)] == 0)
-			win->posY += win->dirY * win->moveSpeed;
+		if (win->map[(int)(win->cam.posX + win->cam.dirX * win->moveSpeed)][(int)win->cam.posY] == 0)
+			win->cam.posX += win->cam.dirX * win->moveSpeed;
+		if (win->map[(int)win->cam.posX][(int)(win->cam.posY + win->cam.dirY * win->moveSpeed)] == 0)
+			win->cam.posY += win->cam.dirY * win->moveSpeed;
 	}
 	//move backwards if no wall behind you
 	if (keyInput == DOWNKEY)
 	{
-		if (win->map[(int)(win->posX - win->dirX * win->moveSpeed)][(int)win->posY] == 0)
-			win->posX -= win->dirX * win->moveSpeed;
-		if (win->map[(int)win->posX][(int)(win->posY - win->dirY * win->moveSpeed)] == 0)
-			win->posY -= win->dirY * win->moveSpeed;
+		if (win->map[(int)(win->cam.posX - win->cam.dirX * win->moveSpeed)][(int)win->cam.posY] == 0)
+			win->cam.posX -= win->cam.dirX * win->moveSpeed;
+		if (win->map[(int)win->cam.posX][(int)(win->cam.posY - win->cam.dirY * win->moveSpeed)] == 0)
+			win->cam.posY -= win->cam.dirY * win->moveSpeed;
 	}
 	//rotate to the right
 	if (keyInput == RIGHTKEY)
 	{
 		//both camera direction and camera plane must be rotated
-		double oldDirX = win->dirX;
-		win->dirX = win->dirX * cos(-win->rotSpeed) - win->dirY * sin(-win->rotSpeed);
-		win->dirY = oldDirX * sin(-win->rotSpeed) + win->dirY * cos(-win->rotSpeed);
-		double oldPlaneX = win->planeX;
-		win->planeX = win->planeX * cos(-win->rotSpeed) - win->planeY * sin(-win->rotSpeed);
-		win->planeY = oldPlaneX * sin(-win->rotSpeed) + win->planeY * cos(-win->rotSpeed);
+		double oldDirX = win->cam.dirX;
+		win->cam.dirX = win->cam.dirX * cos(-win->rotSpeed) - win->cam.dirY * sin(-win->rotSpeed);
+		win->cam.dirY = oldDirX * sin(-win->rotSpeed) + win->cam.dirY * cos(-win->rotSpeed);
+		double oldPlaneX = win->cam.planeX;
+		win->cam.planeX = win->cam.planeX * cos(-win->rotSpeed) - win->cam.planeY * sin(-win->rotSpeed);
+		win->cam.planeY = oldPlaneX * sin(-win->rotSpeed) + win->cam.planeY * cos(-win->rotSpeed);
 	}
 	//rotate to the left
 	if (keyInput == LEFTKEY) {
 		//both camera direction and camera plane must be rotated
-		double oldDirX = win->dirX;
-		win->dirX = win->dirX * cos(win->rotSpeed) - win->dirY * sin(win->rotSpeed);
-		win->dirY = oldDirX * sin(win->rotSpeed) + win->dirY * cos(win->rotSpeed);
-		double oldPlaneX = win->planeX;
-		win->planeX = win->planeX * cos(win->rotSpeed) - win->planeY * sin(win->rotSpeed);
-		win->planeY = oldPlaneX * sin(win->rotSpeed) + win->planeY * cos(win->rotSpeed);
+		double oldDirX = win->cam.dirX;
+		win->cam.dirX = win->cam.dirX * cos(win->rotSpeed) - win->cam.dirY * sin(win->rotSpeed);
+		win->cam.dirY = oldDirX * sin(win->rotSpeed) + win->cam.dirY * cos(win->rotSpeed);
+		double oldPlaneX = win->cam.planeX;
+		win->cam.planeX = win->cam.planeX * cos(win->rotSpeed) - win->cam.planeY * sin(win->rotSpeed);
+		win->cam.planeY = oldPlaneX * sin(win->rotSpeed) + win->cam.planeY * cos(win->rotSpeed);
 	}
 	if (keyInput == EXITKEY)
 		exit(0);

@@ -12,16 +12,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971c2ae5-1a62-457a-8638-5014d45a9703" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maps/world_map_1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/maps/world_map_2_holes_in_walls.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/key.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_atoi.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_bzero.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_isalnum.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_isalpha.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_isascii.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_isdigit.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_isprint.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_itoa.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_lstadd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_lstdel.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_lstdelone.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_lstiter.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_lstmap.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_lstnew.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_memalloc.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_memccpy.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_memchr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_memcmp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_memcpy.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_memdel.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_memmove.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_memset.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_putchar.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_putchar_fd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_putendl.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_putendl_fd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_putnbr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_putnbr_fd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_putstr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_putstr_fd.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strcat.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strchr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strclr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strcmp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strcpy.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strdel.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strdup.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strequ.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_striter.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_striteri.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strjoin.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strlcat.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strlen.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strmap.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strmapi.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strncat.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strncmp.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strncpy.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strnequ.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strnew.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strnstr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strrchr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strsplit.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strstr.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strsub.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_strtrim.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_tolower.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/ft_toupper.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/get_next_line.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libft/libft.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/map_reader.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mod_strsplit.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/window.o" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wolf3d" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/determine_map_size.o" afterPath="$PROJECT_DIR$/determine_map_size.o" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/determine_map_size.c" afterPath="$PROJECT_DIR$/determine_map_size.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/key.c" afterPath="$PROJECT_DIR$/key.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libft/get_next_line.c" afterPath="$PROJECT_DIR$/libft/get_next_line.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libft/libft.h" afterPath="$PROJECT_DIR$/libft/libft.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map_reader.c" afterPath="$PROJECT_DIR$/map_reader.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/window.c" afterPath="$PROJECT_DIR$/window.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wolf.h" afterPath="$PROJECT_DIR$/wolf.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -34,11 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wolf.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wolf.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wolf.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="232">
+              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
               <folding>
                 <element signature="e#92#110#0" expanded="true" />
               </folding>
@@ -59,8 +120,38 @@
       <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+            <state relative-caret-position="324">
+              <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="window.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/window.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="key.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/key.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/draw.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -83,7 +174,6 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/draw.c" />
-        <option value="$PROJECT_DIR$/window.c" />
         <option value="$PROJECT_DIR$/free_allocated_memory.c" />
         <option value="$PROJECT_DIR$/mod_strsplit.cpp" />
         <option value="$PROJECT_DIR$/mod_strsplit.c" />
@@ -93,11 +183,12 @@
         <option value="$PROJECT_DIR$/libft/libft.h" />
         <option value="$PROJECT_DIR$/determine_map_size.c" />
         <option value="$PROJECT_DIR$/map_reader.c" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/maps/world_map_2_holes_in_walls.txt" />
         <option value="$PROJECT_DIR$/maps/world_map_1.txt" />
-        <option value="$PROJECT_DIR$/key.c" />
+        <option value="$PROJECT_DIR$/window.c" />
         <option value="$PROJECT_DIR$/wolf.h" />
+        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/key.c" />
       </list>
     </option>
   </component>
@@ -194,12 +285,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510761425616</updated>
       <workItem from="1510761427098" duration="4050000" />
-      <workItem from="1525511270761" duration="25117000" />
+      <workItem from="1525511270761" duration="27786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29167000" />
+    <option name="totallyTimeSpent" value="31836000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -304,14 +395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/window.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -324,14 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -384,18 +459,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
+    <entry file="file://$PROJECT_DIR$/wolf.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="232">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#92#110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/key.c">
+    <entry file="file://$PROJECT_DIR$/draw.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="53" column="5" lean-forward="false" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -408,13 +485,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wolf.h">
+    <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#92#110#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/window.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/key.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
