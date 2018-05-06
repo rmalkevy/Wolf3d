@@ -23,18 +23,20 @@ int		error_handler(int ac)
 void handle_line_of_map(char* line, t_win *win, size_t num_line)
 {
 	char** splited_line;
+	size_t elems;
 	size_t i;
 
+	elems = 0;
 	i = 0;
-	splited_line = mod_strsplit(line, ',', &i);
-	if (i != win->map_width)
+	splited_line = mod_strsplit(line, ',', &elems);
+	if (elems != win->map_width)
 	{
-		ft_putstr("Not correct size of the map line N");
-		ft_putnbr((int)i);
+		ft_putstr("Not correct width of the map - line N");
+		ft_putnbr((int)num_line);
+		// TODO: free allocated memory;
 		exit(0);
 	}
-	i = 0;
-	win->map = (size_t**)malloc(sizeof(size_t*) * win->map_height);
+	win->map[num_line] = (size_t*)malloc(sizeof(size_t) * win->map_width);
 	while (i < win->map_width)
 	{
 		win->map[num_line][i] = (size_t)ft_atoi(splited_line[i]);
@@ -46,73 +48,41 @@ void	create_map(char** map, t_win *win)
 {
 	size_t i;
 
-	i = 0;
-	while(map[i])
+	i = 1;
+	win->map = (size_t**)malloc(sizeof(size_t*) * win->map_height);
+	while(i < win->map_height + 1)
 	{
-		handle_line_of_map(map[i], win, i);
+		handle_line_of_map(map[i], win, i - 1);
 		i++;
 	}
 }
 
-void	map_reader(char** file_name, t_win *win)
+char*	map_reader(char **file_name, t_win *win)
 {
+	char	dest[BUFF_SIZE + 1];
 	char	*line;
-	char	**map;
-	int		len;
 	int		fd;
-	int		error;
+	int		size;
 
-	len = 0;
-	line = NULL;
-	map = (char**)malloc(sizeof(char*) * (win->map_height + 2));
+	line = ft_strnew(1);
 	fd = open(file_name[1], O_RDONLY);
-	while ((error = get_next_line(fd, &line) > 0) && error != -1)
+	while ((size = read(fd, dest, BUFF_SIZE)) && size != -1)
 	{
-		map[len++] = ft_strdup(line);
-		// TODO: check if line is not make memory leaks
+		dest[size] = '\0';
+		line = ft_join(line, ft_strdup(dest));
 	}
-	if (error == -1)
-	{
-		ft_putstr("Put correct map!");
-		exit(0);
-	}
-	create_map(map, win);
+	return (line);
 }
 
 // TODO: Later - transfer this code to the main.c
 void	map_handler(char **file_name, t_win *win)
 {
-	determine_map_size(file_name, win);
-	map_reader(file_name, win);
+	char	*line;
+	char	**map;
+
+	line = map_reader(file_name, win);
+	map = ft_strsplit(line, '\n');
+	determine_map_size(map[0], win);
+	create_map(map, win);
 }
 
-
-
-
-
-
-
-
-
-
-
-//
-//t_str	*create_str(char **map, int len)
-//{
-//	t_str	*str;
-//	int		i;
-//	int		j;
-//
-//	i = -1;
-//	j = 0;
-//	if (!(str = (t_str*)malloc(sizeof(t_str) * (len + 1))))
-//		return (0);
-//	while (++i < len)
-//		str[i].line = ft_strsplit(map[i], ' ');
-//	str->y_len = len;
-//	i = 0;
-//	while (str[j].line[i])
-//		i++;
-//	str->x_len = i;
-//	return (str);
-//}

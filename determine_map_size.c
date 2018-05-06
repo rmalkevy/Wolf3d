@@ -16,46 +16,23 @@
 
 #include "wolf.h"
 
-void	fill_map_size(char** map_size, t_win *win)
+void	determine_map_size(char *line, t_win *win)
 {
-	int i;
+	char**	map_size;
+	size_t	len;
 
-	i = 0;
-	while (map_size[i])
-		++i;
-	if (i != 2)
+	map_size = mod_strsplit(line, ' ', &len);
+	if (len != 2)
 	{
 		ft_putstr("Incorrect size of map!\n"); // TODO: use functions for error messages!
-		ft_putstr("Put correct map!");
+		ft_putstr("Put correct map!\n");
 	}
 	win->map_width = (unsigned int)ft_atoi(map_size[0]);
 	win->map_height = (unsigned int)ft_atoi(map_size[1]);
 	if (win->map_width < 3 || win->map_height < 3)
 	{
 		ft_putstr("Minimal size of each side of map is 3!\n"); // TODO: use functions for error messages!
-		ft_putstr("Put correct map!");
+		ft_putstr("Put correct map! - minimal size\n");
 		exit(0);
 	}
-}
-
-void	determine_map_size(char **file_name, t_win *win)
-{
-	char	*line;
-	int		fd;
-	int		error;
-	char**	map_size;
-
-	line = NULL;
-	fd = open(file_name[1], O_RDONLY);
-	error = get_next_line(fd, &line);
-	close(fd);
-	if (error == -1)
-	{
-		ft_putstr("Put correct map!");
-		if (line)
-			free(line);
-		exit(0);
-	}
-	map_size = ft_strsplit(line, ' ');
-	fill_map_size(map_size, win);
 }

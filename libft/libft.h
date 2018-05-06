@@ -17,7 +17,7 @@
 # include <sys/stat.h>
 # include <fcntl.h>
 # include <unistd.h>
-# define BUFF_SIZE 100000
+# define BUFF_SIZE 4096
 
 void				*ft_memset(void *b, int c, size_t len);
 void				ft_bzero(void *s, size_t n);
@@ -84,4 +84,5 @@ void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 int					get_next_line(const int fd, char **line);
+char				*ft_join(char *s1, char *s2);
 #endif

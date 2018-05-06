@@ -86,7 +86,7 @@ void    draw(t_win *win)
 				side = 1;
 			}
 			//Check if ray has hit a wall
-			if (worldMap[mapX][mapY] > 0)
+			if (win->map[mapX][mapY] > 0)
 				hit = 1;
 		}
 		//Calculate distance projected on camera direction (oblique distance will give fisheye effect!)
@@ -108,7 +108,7 @@ void    draw(t_win *win)
 
 		//choose wall color
 		//unsigned int color = 0xFFFFFF;
-		switch(worldMap[mapX][mapY])
+		switch(win->map[mapX][mapY])
 		{
 			case 1:  win->color = 0x00FFFF;  break; //red
 			case 2:  win->color = 0x0000FF;  break; //green
@@ -148,4 +148,5 @@ int main(int argc, char *argv[])
 		map_handler(argv, win);
 		write_to_image(win);
 	}
+	return (1);
 }

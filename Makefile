@@ -10,13 +10,15 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = fdf
+NAME = wolf3d
 
-SRC = create_structure.c \
-		ft_base_to_10.c \
-		change_picture.c \
-		write_picture.c \
-		color.c \
+SRC = determine_map_size.c \
+		draw.c \
+		free_allocated_memory.c \
+		key.c \
+		map_reader.c \
+		mod_strsplit.c \
+		window.c \
 		main.c
 
 OBJ = $(SRC:.c=.o)

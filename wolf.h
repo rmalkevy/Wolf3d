@@ -8,7 +8,7 @@
 # include <math.h>
 # include <time.h>
 # include <stdlib.h>
-# include <printf.h>
+# include <stdio.h>
 # include "minilibx/mlx.h"
 # include "libft/libft.h"
 
@@ -16,47 +16,18 @@
 # define DOWNKEY 125
 # define LEFTKEY 123
 # define RIGHTKEY 124
+# define EXITKEY 53
 
-# define MAP_WIDTH 24
-# define MAP_HEIGHT 24
-# define WIDTH_SCREEN 512
-# define HEIGHT_SCREEN 384
+# define WIDTH_SCREEN 720
+# define HEIGHT_SCREEN 480
 
-int worldMap[MAP_WIDTH][MAP_HEIGHT] =
-		{
-				{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,2,2,2,2,2,0,0,0,0,3,0,3,0,3,0,0,0,1},
-				{1,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,2,0,0,0,2,0,0,0,0,3,0,0,0,3,0,0,0,1},
-				{1,0,0,0,0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,2,2,0,2,2,0,0,0,0,3,0,3,0,3,0,0,0,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,4,0,4,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,4,0,0,0,0,5,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,4,0,4,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,4,0,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1},
-				{1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1}
-		};
-
-typedef struct		s_win
+typedef struct	s_win
 {
-	void		    *mlx;
-	void		    *win;
-	void		    *image;
-	char		    *line;
-	size_t    color;
+	void		*mlx;
+	void		*win;
+	void		*image;
+	char		*line;
+	size_t		color;
 
 	double			posX;
 	double			posY;  //x and y start position
@@ -76,7 +47,7 @@ typedef struct		s_win
 char		**mod_strsplit(char const *s, char c, size_t *size);
 
 int					error_handler(int ac);
-void				determine_map_size(char **file_name, t_win *win);
+void				determine_map_size(char *map_size, t_win *win);
 void				map_handler(char **file_name, t_win *win);
 
 t_win*				win_initialization();
