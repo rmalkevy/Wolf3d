@@ -38,8 +38,8 @@ void    draw(t_win *win)
 		double sideDistY;
 
 		//length of ray from one x or y-side to next x or y-side
-		double deltaDistX = sqrt(1 + (cam.rayDirY * cam.rayDirY) / (cam.rayDirX * cam.rayDirX));
-		double deltaDistY = sqrt(1 + (cam.rayDirX * cam.rayDirX) / (cam.rayDirY * cam.rayDirY));
+		double deltaDistX = fabs(1 / cam.rayDirX);
+		double deltaDistY = fabs(1 / cam.rayDirY);
 		double perpWallDist;
 
 		//what direction to step in x or y-direction (either +1 or -1)

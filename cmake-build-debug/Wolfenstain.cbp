@@ -107,6 +107,12 @@
 		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/mod_strsplit.c">
 			<Option target="Wolfenstain"/>
 		</Unit>
+		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/read_textures.c">
+			<Option target="Wolfenstain"/>
+		</Unit>
+		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/texture.cpp">
+			<Option target="Wolfenstain"/>
+		</Unit>
 		<Unit filename="/Users/Henprokuror/CLionProjects/Wolfenstain/window.c">
 			<Option target="Wolfenstain"/>
 		</Unit>

@@ -312,6 +312,60 @@ mod_strsplit.c.s:
 	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.c.s
 .PHONY : mod_strsplit.c.s
 
+read_textures.o: read_textures.c.o
+
+.PHONY : read_textures.o
+
+# target to build an object file
+read_textures.c.o:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/read_textures.c.o
+.PHONY : read_textures.c.o
+
+read_textures.i: read_textures.c.i
+
+.PHONY : read_textures.i
+
+# target to preprocess a source file
+read_textures.c.i:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/read_textures.c.i
+.PHONY : read_textures.c.i
+
+read_textures.s: read_textures.c.s
+
+.PHONY : read_textures.s
+
+# target to generate assembly for a file
+read_textures.c.s:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/read_textures.c.s
+.PHONY : read_textures.c.s
+
+texture.o: texture.cpp.o
+
+.PHONY : texture.o
+
+# target to build an object file
+texture.cpp.o:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/texture.cpp.o
+.PHONY : texture.cpp.o
+
+texture.i: texture.cpp.i
+
+.PHONY : texture.i
+
+# target to preprocess a source file
+texture.cpp.i:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/texture.cpp.i
+.PHONY : texture.cpp.i
+
+texture.s: texture.cpp.s
+
+.PHONY : texture.s
+
+# target to generate assembly for a file
+texture.cpp.s:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/texture.cpp.s
+.PHONY : texture.cpp.s
+
 window.o: window.c.o
 
 .PHONY : window.o
@@ -369,6 +423,12 @@ help:
 	@echo "... mod_strsplit.o"
 	@echo "... mod_strsplit.i"
 	@echo "... mod_strsplit.s"
+	@echo "... read_textures.o"
+	@echo "... read_textures.i"
+	@echo "... read_textures.s"
+	@echo "... texture.o"
+	@echo "... texture.i"
+	@echo "... texture.s"
 	@echo "... window.o"
 	@echo "... window.i"
 	@echo "... window.s"

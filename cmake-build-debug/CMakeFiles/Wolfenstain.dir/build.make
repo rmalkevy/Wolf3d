@@ -249,6 +249,54 @@ CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.provides: CMakeFiles/Wolfenstain.dir
 CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.provides.build: CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o
 
 
+CMakeFiles/Wolfenstain.dir/texture.cpp.o: CMakeFiles/Wolfenstain.dir/flags.make
+CMakeFiles/Wolfenstain.dir/texture.cpp.o: ../texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Wolfenstain.dir/texture.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Wolfenstain.dir/texture.cpp.o -c /Users/Henprokuror/CLionProjects/Wolfenstain/texture.cpp
+
+CMakeFiles/Wolfenstain.dir/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wolfenstain.dir/texture.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Henprokuror/CLionProjects/Wolfenstain/texture.cpp > CMakeFiles/Wolfenstain.dir/texture.cpp.i
+
+CMakeFiles/Wolfenstain.dir/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wolfenstain.dir/texture.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Henprokuror/CLionProjects/Wolfenstain/texture.cpp -o CMakeFiles/Wolfenstain.dir/texture.cpp.s
+
+CMakeFiles/Wolfenstain.dir/texture.cpp.o.requires:
+
+.PHONY : CMakeFiles/Wolfenstain.dir/texture.cpp.o.requires
+
+CMakeFiles/Wolfenstain.dir/texture.cpp.o.provides: CMakeFiles/Wolfenstain.dir/texture.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/texture.cpp.o.provides.build
+.PHONY : CMakeFiles/Wolfenstain.dir/texture.cpp.o.provides
+
+CMakeFiles/Wolfenstain.dir/texture.cpp.o.provides.build: CMakeFiles/Wolfenstain.dir/texture.cpp.o
+
+
+CMakeFiles/Wolfenstain.dir/read_textures.c.o: CMakeFiles/Wolfenstain.dir/flags.make
+CMakeFiles/Wolfenstain.dir/read_textures.c.o: ../read_textures.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Wolfenstain.dir/read_textures.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolfenstain.dir/read_textures.c.o   -c /Users/Henprokuror/CLionProjects/Wolfenstain/read_textures.c
+
+CMakeFiles/Wolfenstain.dir/read_textures.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolfenstain.dir/read_textures.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Henprokuror/CLionProjects/Wolfenstain/read_textures.c > CMakeFiles/Wolfenstain.dir/read_textures.c.i
+
+CMakeFiles/Wolfenstain.dir/read_textures.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolfenstain.dir/read_textures.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Henprokuror/CLionProjects/Wolfenstain/read_textures.c -o CMakeFiles/Wolfenstain.dir/read_textures.c.s
+
+CMakeFiles/Wolfenstain.dir/read_textures.c.o.requires:
+
+.PHONY : CMakeFiles/Wolfenstain.dir/read_textures.c.o.requires
+
+CMakeFiles/Wolfenstain.dir/read_textures.c.o.provides: CMakeFiles/Wolfenstain.dir/read_textures.c.o.requires
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/read_textures.c.o.provides.build
+.PHONY : CMakeFiles/Wolfenstain.dir/read_textures.c.o.provides
+
+CMakeFiles/Wolfenstain.dir/read_textures.c.o.provides.build: CMakeFiles/Wolfenstain.dir/read_textures.c.o
+
+
 # Object files for target Wolfenstain
 Wolfenstain_OBJECTS = \
 "CMakeFiles/Wolfenstain.dir/main.c.o" \
@@ -258,7 +306,9 @@ Wolfenstain_OBJECTS = \
 "CMakeFiles/Wolfenstain.dir/map_reader.c.o" \
 "CMakeFiles/Wolfenstain.dir/determine_map_size.c.o" \
 "CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o" \
-"CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o"
+"CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o" \
+"CMakeFiles/Wolfenstain.dir/texture.cpp.o" \
+"CMakeFiles/Wolfenstain.dir/read_textures.c.o"
 
 # External object files for target Wolfenstain
 Wolfenstain_EXTERNAL_OBJECTS =
@@ -271,9 +321,11 @@ Wolfenstain: CMakeFiles/Wolfenstain.dir/map_reader.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/determine_map_size.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o
+Wolfenstain: CMakeFiles/Wolfenstain.dir/texture.cpp.o
+Wolfenstain: CMakeFiles/Wolfenstain.dir/read_textures.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/build.make
 Wolfenstain: CMakeFiles/Wolfenstain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable Wolfenstain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Wolfenstain"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Wolfenstain.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +341,8 @@ CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/map_reader.c.o.r
 CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.requires
 CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.requires
 CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.requires
+CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/texture.cpp.o.requires
+CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/read_textures.c.o.requires
 
 .PHONY : CMakeFiles/Wolfenstain.dir/requires
 

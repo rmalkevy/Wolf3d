@@ -1,6 +1,7 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
   "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
@@ -11,12 +12,24 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/Henprokuror/CLionProjects/Wolfenstain/main.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/main.c.o"
   "/Users/Henprokuror/CLionProjects/Wolfenstain/map_reader.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/map_reader.c.o"
   "/Users/Henprokuror/CLionProjects/Wolfenstain/mod_strsplit.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o"
+  "/Users/Henprokuror/CLionProjects/Wolfenstain/read_textures.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/read_textures.c.o"
   "/Users/Henprokuror/CLionProjects/Wolfenstain/window.c" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/window.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../inc"
+  "../includes"
+  "../minilibx"
+  )
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/Henprokuror/CLionProjects/Wolfenstain/texture.cpp" "/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles/Wolfenstain.dir/texture.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../inc"
   "../includes"
   "../minilibx"
