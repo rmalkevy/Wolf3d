@@ -12,303 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971c2ae5-1a62-457a-8638-5014d45a9703" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_C.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/3.8.2/CMakeDetermineCompilerABI_CXX.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.out" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/draw.c.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/key.c.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/main.c.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/window.c.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/feature_tests.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/determine_map_size.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/draw.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/fdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/free_allocated_memory.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/key.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_atoi.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_bzero.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isalnum.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isalpha.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isascii.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isdigit.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isprint.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_itoa.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstadd.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstdel.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstdelone.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstiter.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstmap.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstnew.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memalloc.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memccpy.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memchr.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memcmp.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memcpy.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memdel.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memmove.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memset.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putchar.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putchar_fd.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putendl.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putendl_fd.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putnbr.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putnbr_fd.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putstr.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putstr_fd.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strcat.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strchr.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strclr.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strcmp.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strcpy.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strdel.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strdup.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strequ.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_striter.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_striteri.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strjoin.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strlcat.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strlen.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strmap.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strmapi.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strncat.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strncmp.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strncpy.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strnequ.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strnew.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strnstr.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strrchr.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strsplit.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strstr.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strsub.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strtrim.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_tolower.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_toupper.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/get_next_line.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/libft.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/main.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/map_reader.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/font.xcf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/libmlx.a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_init_loop.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_int_str_to_wordtab.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_new_image.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_new_window.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_shaders.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_xpm.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/mod_strsplit.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/window.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/wolf3d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/.idea/Wolfenstain.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/CMakeLists.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/author" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeCache.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Progress/1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Progress/2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Progress/3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Progress/4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Progress/5" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Progress/count.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolf.dir/DependInfo.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolf.dir/build.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolf.dir/cmake_clean.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolf.dir/depend.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolf.dir/flags.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolf.dir/link.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolf.dir/progress.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/C.includecache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/DependInfo.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/build.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/cmake_clean.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/depend.internal" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/depend.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/flags.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/link.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/Wolfenstain.dir/progress.make" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/cmake.check_cache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/feature_tests.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/Wolf.cbp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/Wolfenstain.cbp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/cmake-build-debug/cmake_install.cmake" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/determine_map_size.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/draw.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/free_allocated_memory.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/key.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/author" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_atoi.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_bzero.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isalnum.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isalpha.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isascii.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isdigit.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_isprint.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_itoa.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstadd.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstdel.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstdelone.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstiter.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstmap.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_lstnew.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memalloc.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memccpy.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memchr.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memcmp.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memcpy.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memdel.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memmove.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_memset.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putchar.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putchar_fd.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putendl.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putendl_fd.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putnbr.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putnbr_fd.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putstr.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_putstr_fd.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strcat.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strchr.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strclr.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strcmp.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strcpy.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strdel.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strdup.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strequ.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_striter.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_striteri.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strjoin.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strlcat.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strlen.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strmap.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strmapi.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strncat.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strncmp.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strncpy.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strnequ.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strnew.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strnstr.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strrchr.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strsplit.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strstr.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strsub.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_strtrim.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_tolower.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/ft_toupper.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/get_next_line.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/libft/libft.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/main.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/map_reader.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/maps/world_map_1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/maps/world_map_2_holes_in_walls.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/_README_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/font.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man1/mlx.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man1/mlx_loop.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man1/mlx_new_image.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man1/mlx_new_window.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man1/mlx_pixel_put.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man3/mlx.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man3/mlx_loop.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man3/mlx_new_image.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man3/mlx_new_window.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/man/man3/mlx_pixel_put.1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_init_loop.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_int.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_int_str_to_wordtab.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_new_image.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_new_window.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_new_window.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_rgb.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_shaders.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/minilibx/mlx_xpm.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/mod_strsplit.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/window.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Wolf3d-master/wolf.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/draw.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/draw.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/key.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/key.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/main.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/main.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/window.c.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/window.c.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/key.o" afterPath="$PROJECT_DIR$/key.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libft/libft.a" afterPath="$PROJECT_DIR$/libft/libft.a" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.o" afterPath="$PROJECT_DIR$/main.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/window.o" afterPath="$PROJECT_DIR$/window.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wolf3d" afterPath="$PROJECT_DIR$/wolf3d" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Wolfenstain.iml" afterPath="$PROJECT_DIR$/.idea/Wolfenstain.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCCompiler.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeCXXCompiler.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CMakeSystem.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/CMakeCCompilerId.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolf.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/C.includecache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/depend.internal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/depend.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/flags.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Wolfenstain.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Wolf.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Wolf.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Wolfenstain.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Wolfenstain.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/determine_map_size.c" afterPath="$PROJECT_DIR$/determine_map_size.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/draw.c" afterPath="$PROJECT_DIR$/draw.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/free_allocated_memory.c" afterPath="$PROJECT_DIR$/free_allocated_memory.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/key.c" afterPath="$PROJECT_DIR$/key.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map_reader.c" afterPath="$PROJECT_DIR$/map_reader.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps/world_map_1.txt" afterPath="$PROJECT_DIR$/maps/world_map_1.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps/world_map_2_holes_in_walls.txt" afterPath="$PROJECT_DIR$/maps/world_map_2_holes_in_walls.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mod_strsplit.c" afterPath="$PROJECT_DIR$/mod_strsplit.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/window.c" afterPath="$PROJECT_DIR$/window.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wolf.h" afterPath="$PROJECT_DIR$/wolf.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -320,41 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wolf.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wolf3d-master/wolf.h">
+      <file leaf-file-name="draw.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/draw.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="71" column="55" lean-forward="false" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
+            <state relative-caret-position="184">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="window.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wolf3d-master/window.c">
+      <file leaf-file-name="main.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wolf3d-master/main.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2580">
-              <caret line="172" column="1" lean-forward="false" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
+            <state relative-caret-position="408">
+              <caret line="129" column="27" lean-forward="false" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -390,8 +74,8 @@
         <option value="$PROJECT_DIR$/maps/world_map_1.txt" />
         <option value="$PROJECT_DIR$/window.c" />
         <option value="$PROJECT_DIR$/wolf.h" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/key.c" />
+        <option value="$PROJECT_DIR$/main.c" />
       </list>
     </option>
   </component>
@@ -483,7 +167,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31862000" />
+    <option name="totallyTimeSpent" value="32579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -716,26 +400,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wolf3d-master/wolf.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="71" column="55" lean-forward="false" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wolf3d-master/key.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="51" column="28" lean-forward="false" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wolf3d-master/window.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -760,6 +428,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -868,26 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draw.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map_reader.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-108">
           <caret line="52" column="14" lean-forward="false" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -904,6 +557,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="58" column="1" lean-forward="false" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wolf3d-master/window.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wolf3d-master/wolf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="71" column="55" lean-forward="false" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="129" column="27" lean-forward="false" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
           <folding />
         </state>
       </provider>

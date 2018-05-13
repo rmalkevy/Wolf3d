@@ -124,6 +124,10 @@ void    draw(t_win *win)
 		}
 		//draw the pixels of the stripe as a vertical line
 		ver_line(x, drawStart, drawEnd, win);
+		win->color = 0x269900;
+		ver_line(x, 0, drawStart, win);
+		win->color = 0x800000;
+		ver_line(x, drawEnd, HEIGHT_SCREEN, win);
 	}
 	//timing for input and FPS counter
 //		oldTime = time;
