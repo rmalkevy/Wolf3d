@@ -20,7 +20,7 @@ t_win*	win_initialization()
 
 	win->cam.posX = 22;	// TODO: change start position to map size;
 	win->cam.posY = 12;  //x and y start position
-	win->cam.dirX = -1;
+	win->cam.dirX = 1;
 	win->cam.dirY = 0; //initial direction vector
 	win->cam.planeX = 0;
 	win->cam.planeY = 0.66; //the 2d raycaster version of camera plane
@@ -44,5 +44,6 @@ void	write_to_image(t_win *win)
 
 	mlx_put_image_to_window(win->mlx, win->win, win->image, 0, 0);
 	mlx_hook(win->win, 2, 5, my_key_funct, win);
+	mlx_hook(win->win, 17, 0, window_destroyed_hook, win);
 	mlx_loop(win->mlx);
 }

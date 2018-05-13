@@ -285,32 +285,32 @@ map_reader.c.s:
 	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/map_reader.c.s
 .PHONY : map_reader.c.s
 
-mod_strsplit.o: mod_strsplit.cpp.o
+mod_strsplit.o: mod_strsplit.c.o
 
 .PHONY : mod_strsplit.o
 
 # target to build an object file
-mod_strsplit.cpp.o:
-	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o
-.PHONY : mod_strsplit.cpp.o
+mod_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o
+.PHONY : mod_strsplit.c.o
 
-mod_strsplit.i: mod_strsplit.cpp.i
+mod_strsplit.i: mod_strsplit.c.i
 
 .PHONY : mod_strsplit.i
 
 # target to preprocess a source file
-mod_strsplit.cpp.i:
-	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.i
-.PHONY : mod_strsplit.cpp.i
+mod_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.c.i
+.PHONY : mod_strsplit.c.i
 
-mod_strsplit.s: mod_strsplit.cpp.s
+mod_strsplit.s: mod_strsplit.c.s
 
 .PHONY : mod_strsplit.s
 
 # target to generate assembly for a file
-mod_strsplit.cpp.s:
-	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.s
-.PHONY : mod_strsplit.cpp.s
+mod_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.c.s
+.PHONY : mod_strsplit.c.s
 
 window.o: window.c.o
 

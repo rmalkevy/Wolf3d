@@ -139,12 +139,46 @@ void    draw(t_win *win)
 	mlx_destroy_image(win->mlx, win->image);
 }
 
+void	set_player(t_win *win)
+{
+	size_t	height;
+	size_t	width;
+	int		breaker;
+
+	height = 2;
+	breaker = 0;
+	while (height < win->map_height)
+	{
+		width = 2;
+		while (width < win->map_width)
+		{
+			if (win->map[height][width] == 0)
+			{
+				win->cam.posX = height;
+				win->cam.posY = width;
+				breaker = 1;
+				break ;
+			}
+			++width;
+		}
+		if (breaker == 1)
+			break ;
+		++height;
+	}
+	if (!breaker)
+	{
+		ft_putstr("No place for set position for player\n");
+		exit(0);
+	}
+}
+
 int main(int argc, char *argv[])
 {
 	if (error_handler(argc))
 	{
 		t_win *win = win_initialization();
 		map_handler(argv, win);
+		set_player(win);
 		write_to_image(win);
 	}
 	return (1);

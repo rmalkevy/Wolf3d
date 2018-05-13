@@ -12,6 +12,12 @@
 
 #include "wolf.h"
 
+int		window_destroyed_hook(void *params)
+{
+	(void)params;
+	exit(0);
+}
+
 int		my_key_funct(int keyInput, t_win *win) {
 
 	//move forward if no wall in front of you
@@ -32,7 +38,7 @@ int		my_key_funct(int keyInput, t_win *win) {
 			win->cam.posY -= win->cam.dirY * win->moveSpeed;
 	}
 	//rotate to the right
-	if (keyInput == RIGHTKEY)
+	if (keyInput == LEFTKEY)
 	{
 		//both camera direction and camera plane must be rotated
 		double oldDirX = win->cam.dirX;
@@ -43,7 +49,7 @@ int		my_key_funct(int keyInput, t_win *win) {
 		win->cam.planeY = oldPlaneX * sin(-win->rotSpeed) + win->cam.planeY * cos(-win->rotSpeed);
 	}
 	//rotate to the left
-	if (keyInput == LEFTKEY) {
+	if (keyInput == RIGHTKEY) {
 		//both camera direction and camera plane must be rotated
 		double oldDirX = win->cam.dirX;
 		win->cam.dirX = win->cam.dirX * cos(win->rotSpeed) - win->cam.dirY * sin(win->rotSpeed);

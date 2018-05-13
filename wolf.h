@@ -64,8 +64,10 @@ t_win*			win_initialization();
 void			put_color_to_pixel(t_win *win, int x, int y);
 void			ver_line(int x, int start, int end, t_win *win);
 void			write_to_image(t_win *win);
-int				my_key_funct(int keyInput, t_win *win);
 void			create_image(t_win *win);
 void			draw(t_win *win);
 
+
+int				window_destroyed_hook(void *params);
+int				my_key_funct(int keyInput, t_win *win);
 #endif

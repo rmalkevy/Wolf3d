@@ -225,28 +225,28 @@ CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.provides: CMakeFiles/Wolfen
 CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.provides.build: CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o
 
 
-CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o: CMakeFiles/Wolfenstain.dir/flags.make
-CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o: ../mod_strsplit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o -c /Users/Henprokuror/CLionProjects/Wolfenstain/mod_strsplit.cpp
+CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o: CMakeFiles/Wolfenstain.dir/flags.make
+CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o: ../mod_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o   -c /Users/Henprokuror/CLionProjects/Wolfenstain/mod_strsplit.c
 
-CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Henprokuror/CLionProjects/Wolfenstain/mod_strsplit.cpp > CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.i
+CMakeFiles/Wolfenstain.dir/mod_strsplit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Wolfenstain.dir/mod_strsplit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Henprokuror/CLionProjects/Wolfenstain/mod_strsplit.c > CMakeFiles/Wolfenstain.dir/mod_strsplit.c.i
 
-CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Henprokuror/CLionProjects/Wolfenstain/mod_strsplit.cpp -o CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.s
+CMakeFiles/Wolfenstain.dir/mod_strsplit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Wolfenstain.dir/mod_strsplit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Henprokuror/CLionProjects/Wolfenstain/mod_strsplit.c -o CMakeFiles/Wolfenstain.dir/mod_strsplit.c.s
 
-CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o.requires:
+CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.requires:
 
-.PHONY : CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o.requires
+.PHONY : CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.requires
 
-CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o.provides: CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o.provides.build
-.PHONY : CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o.provides
+CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.provides: CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.requires
+	$(MAKE) -f CMakeFiles/Wolfenstain.dir/build.make CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.provides.build
+.PHONY : CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.provides
 
-CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o.provides.build: CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o
+CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.provides.build: CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o
 
 
 # Object files for target Wolfenstain
@@ -258,7 +258,7 @@ Wolfenstain_OBJECTS = \
 "CMakeFiles/Wolfenstain.dir/map_reader.c.o" \
 "CMakeFiles/Wolfenstain.dir/determine_map_size.c.o" \
 "CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o" \
-"CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o"
+"CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o"
 
 # External object files for target Wolfenstain
 Wolfenstain_EXTERNAL_OBJECTS =
@@ -270,10 +270,10 @@ Wolfenstain: CMakeFiles/Wolfenstain.dir/window.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/map_reader.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/determine_map_size.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o
-Wolfenstain: CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o
+Wolfenstain: CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o
 Wolfenstain: CMakeFiles/Wolfenstain.dir/build.make
 Wolfenstain: CMakeFiles/Wolfenstain.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Wolfenstain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Henprokuror/CLionProjects/Wolfenstain/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable Wolfenstain"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Wolfenstain.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -288,7 +288,7 @@ CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/window.c.o.requi
 CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/map_reader.c.o.requires
 CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/determine_map_size.c.o.requires
 CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/free_allocated_memory.c.o.requires
-CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/mod_strsplit.cpp.o.requires
+CMakeFiles/Wolfenstain.dir/requires: CMakeFiles/Wolfenstain.dir/mod_strsplit.c.o.requires
 
 .PHONY : CMakeFiles/Wolfenstain.dir/requires
 
